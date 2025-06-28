@@ -82,6 +82,7 @@ def tambah_pasien():
 
     print(f"\n✅ Pasien '{nama}' telah didaftarkan dengan nomor antrian {pasien['No']} ({pasien['Jenis']}).")
     cetak_struk(pasien)
+    simpan_riwayat(pasien)
 
 # ========== CETAK STRUK ==========
 def cetak_struk(pasien):
