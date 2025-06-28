@@ -5,7 +5,6 @@ from collections import deque
 from datetime import datetime
 from termcolor import cprint
 import time
-import threading
 import csv
 import os
 
